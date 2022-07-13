@@ -1,13 +1,17 @@
 import React from "react";
-import Header from "./components/Header";
+import Header from "./Layouts/Header";
+import Footer from "./Layouts/Footer";
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <>
       <Header />
-      <h1 className="text-center text-3xl text-blue-500">HI AHMED</h1>
+      <Home />
+      <Footer />
     </>
   );
 }
 
 export default App;
+
