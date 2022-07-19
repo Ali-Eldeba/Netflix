@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Rules */
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
