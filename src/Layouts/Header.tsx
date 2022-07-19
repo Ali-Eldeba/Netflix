@@ -18,7 +18,9 @@ const Header: React.FC = () => {
               fill="#E50914"
             />
           </svg>
-          <button className="bg-primary w-[84px] h-[34px] text-white">Sign In</button>
+          <button className="bg-primary w-[84px] h-[34px] text-white">
+            Sign In
+          </button>
         </div>
       </header>
       <header className="h-[57px]"></header>
